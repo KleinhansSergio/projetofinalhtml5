@@ -25,11 +25,22 @@ Your site is ready to be published at https://kleinhanssergio.github.io/projetof
 
  -->
 
+<!-- ************************ PUBLICANDO MEU SITE MEU DOMINIOOOOOOOOOOO
+tem que ter uma conta no google -->
+<!-- e SEGIR OS PASSOS A PASSO -->
+
+
+<!-- APRENDER O QUE EH METADADOS   VEJA EM GOOGLE.COM DEVELOPERS tem tambem em SCHEMA.ORG-->
+
+<!-- EXEMPLO SCHEMA.ORG/PRODUCT E VAIRASSSSSS OUTRAS  SCHEMA PRONTOS ORGANIZATION, ....TIKECTS ..........-->
+<!-- http://schema.org/Organization -->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--                                                                              NAO PERMITE ZOOM -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Projeto Final HTML</title>
 
@@ -39,8 +50,71 @@ Your site is ready to be published at https://kleinhanssergio.github.io/projetof
   <!-- IMPORTANTEEEEEE palavras chaves de pesquisa separadas por , virgula, palavras chaves, palavras chaves,  -->
   <meta name="keywords"    content="Palavras Chaves, Palavras Chaves, ...">
   <!-- criar tambem arquivos ROBOTS.TXT -->
+
+  <!-- FRAMEWORK=Bibliotecas
+   www.usabica.github.io/front-end-frameworks/compare.html  open source=livres
+   FRAMEWORK de CSS e JS  http://getbootstrap.com/ -->
+
+  <!-- PEGAMOS AS LINHAS ABAIXO DE http://getbootstrap.com/getting-started/ -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
 </head>
 <body>
+
+
+  <script type="application/ld+json">
+
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Republica de Curitiba , Brasil",
+      "postalCode": "F-75002",
+      "streetAddress": "Rua Carlos Cavalcanti, 19 'Opera"
+    },
+    "email": "sergiowsy(at)gmail.com",
+    "faxNumber": "( 41) 3030-2233",
+    "member": [
+      {
+        "@type": "Organization"
+      },
+      {
+        "@type": "Organization"
+      }
+    ],
+    "alumni": [
+      {
+        "@type": "Person",
+        "name": "Sergio Luiz"
+      },
+      {
+        "@type": "Person",
+        "name": "John Smith"
+      }
+    ],
+    "name": "Google.org (GOOG)",
+    "telephone": "( 33 1) 42 68 53 00"
+  }
+
+  </script>
+
+  <!-- DIV Principal baseado em bootstrap -->
+  <div class="container-fluid">
+    ...
+  </div>
+
+
+
 
 </body>
 </html>
