@@ -16,6 +16,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Roboto|Ubuntu" rel="stylesheet">
     <link href="css/master.css" rel="stylesheet">
+    <!-- Veja no fonte da execucao do HTML botao direito inspecionar que vai aparecer a fonte Helvetica padrao do bootstrap riscada -->
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -71,17 +73,67 @@
             <li><a href="#">A Elaborata    </a></li>
             <li><a href="#">Mural de Vagas </a></li>
             <li><a href="#">Contato        </a></li>
-
-
-
-
-
             </ul>
             </div>
 
-
           </div>
         </nav>
-
   </body>
+
+  <!-- http://getbootstrap.com/javascript/
+  Tem exemplos de puldow prontos e grids .... -->
+  <!-- vamos usar o carowcel - banners rotativos -->
+
+<!-- digita carousel e da enter e nao mexe no mouse troca o nome que ele troca em tudo que precisa -->
+
+<div id="banner" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#banner" data-slide-to="0" class="active"></li>
+    <li data-target="#banner" data-slide-to="1"></li>
+    <li data-target="#banner" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides = conteudo do banner-->
+  <!-- https://unsplash.com/new    site de imagens -->
+
+  <div class="carousel-inner">
+<!-- so a primeiro item ou a primeira imagem vai conter active     -->
+    <div class="item active">
+      <img src="imagens/imagem01.jpg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="imagens/imagem02.jpg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <!-- <div class="item">
+      <img src="imagens/imagem03.jpg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div> -->
+
+
+  </div>
+
+
+
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#banner" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#banner" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+  <!-- end carowsel -->
+
+
+
+
 </html>
