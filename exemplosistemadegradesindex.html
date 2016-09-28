@@ -1,0 +1,154 @@
+<!-- Quando utilizar o GitHup para hospedar a pagina toda vez que desejo executar
+  ou seja ver resultado do html tem que sincronizar, fazer o commit do Git e ai F5 no HTML -->
+
+<!-- Instalar Plugins no Atom
+Ctrl+, virgula Abre o Settings Packages install Aton bootstrap3 Install -->
+
+<!-- Google Sites For Work - O Jeito Mais Fácil de Criar Sites - google.com‎
+Anúncioapps.google.com/sites‎
+Tudo com a Qualidade Google.
+Comece AgoraSaiba MaisPreçosProdutos -->
+
+<!-- WWW.GITHUB.COM
+1- Criaando Projeto / Repositorio através do SITE
+Da o nome do Projeto
+Clicar em Setings
+GitHub Pages
+
+3-Acessa o Git Hub Projeto via Windows e Clonar o Projeto -->
+<!--
+Monta Sumario
+Comit
+Publish -->
+
+<!-- https://github.com/KleinhansSergio/projetofinalhtml5/settings
+No GitHub Pages  None Setinha para baixo aparecer opcao de me Master Branch
+master branch
+
+Manda Salvar - SAVE
+GitHub Pages
+Your site is ready to be published at https://kleinhanssergio.github.io/projetofinalhtml5/.
+
+
+<!-- ************************ PUBLICANDO MEU SITE MEU DOMINIOOOOOOOOOOO
+tem que ter uma conta no google -->
+<!-- e SEGIR OS PASSOS A PASSO -->
+<!-- DEPOIS DE PUBLICAR COPIE O ARQUIVO QUE O GOOGLE GEROU google4fe0856b0dc42e82.html NO DIRETORIO/PASTA DO SEU PROJETO -->
+
+<!-- APRENDER O QUE EH METADADOS   VEJA EM GOOGLE.COM DEVELOPERS tem tambem em SCHEMA.ORG-->
+
+<!-- EXEMPLO SCHEMA.ORG/PRODUCT E VAIRASSSSSS OUTRAS  SCHEMA PRONTOS ORGANIZATION, ....TIKECTS ..........-->
+<!-- http://schema.org/Organization -->
+
+<!-- GETBOOTSTRAP.COM  ******** BOOTSTRAP  PADROES  DE PAGINAS PARA FUNCIONAR EM TABLET CELULARES DESKTOP ..... -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <!--                                                                              NAO PERMITE ZOOM -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projeto Final HTML</title>
+
+  <!-- SEO - Search Engine Optmize Parte de Buscas e Pesquisas -->
+  <meta name="author"      content="Sérgio Luiz Kleinhans">
+  <meta name="description" content="Eu quero que o Google Indexe Isso Aparece Logo abaixo do Titulo de 25 a 30 Palavras Para sites de Pesquisas">
+  <!-- IMPORTANTEEEEEE palavras chaves de pesquisa separadas por , virgula, palavras chaves, palavras chaves,  -->
+  <meta name="keywords"    content="Palavras Chaves, Palavras Chaves, ...">
+  <!-- criar tambem arquivos ROBOTS.TXT -->
+
+  <!-- FRAMEWORK=Bibliotecas
+   www.usabica.github.io/front-end-frameworks/compare.html  open source=livres
+   FRAMEWORK de CSS e JS  http://getbootstrap.com/ -->
+   <!-- http://getbootstrap.com/css/ -->
+
+  <!-- PEGAMOS AS LINHAS ABAIXO DE http://getbootstrap.com/getting-started/ -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Republica de Curitiba , Brasil",
+      "postalCode": "F-75002",
+      "streetAddress": "Rua Carlos Cavalcanti, 19 'Opera"
+    },
+    "email": "sergiowsy(at)gmail.com",
+    "faxNumber": "( 41) 3030-2233",
+    "member": [
+      {"@type": "Organization"},
+      {"@type": "Organization"}
+    ],
+    "alumni": [
+      {"@type": "Person",
+        "name": "Sergio Luiz"},
+      {"@type": "Person",
+        "name": "John Smith"}
+    ],
+    "name": "Google.org (GOOG)",
+    "telephone": "( 33 1) 42 68 53 00"
+  }
+
+  </script>
+
+  <!-- DIV Principal baseado em bootstrap -->
+  <div class="container-fluid">
+    <!--Grid system no bootstrap -->
+    <!--<div class="col-md-1 a -12"> -->
+
+    <!-- Toda coluna deve estar dentro de um linha. -->
+    <div class="row">
+      <div class="col-md-12">
+        Uma coluna de grid de 12 (100% largura)
+      </div>
+    </div>
+
+    <div class="row"> <!--uma linha com 03 colunas 33% para cada) -->
+      <!-- devine uma para que as colunas sempre uma do lado da outra inclui col-sm-4 e col-xs-4-->
+      <!-- equipamentos pequenos sm-4 extra pequenos  xs-4 -->
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <h3>Coluna 1 de 3</h3>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <h3>Coluna 2 de 3</h3>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <h3>Coluna 3 de 3</h3>
+      </div>
+    </div>
+
+    <div class="row"> <!--uma linha com 03 colunas uma diferente da outra) -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <h3>Nova Coluna 1 de 3</h3>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <h3>Nova Coluna 2 de 3</h3>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <h3>Nova Coluna 3 de 3</h3>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+</body>
+</html>
