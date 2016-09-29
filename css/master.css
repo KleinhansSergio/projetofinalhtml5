@@ -1,7 +1,24 @@
 /*https://fonts.google.com/ */
+/*https://fonts.google.com/?selection.family=Droid+Sans|Roboto|Ubuntu*/
 /*search e escolhe a familia de fontes deseja
 clica no + (mais) a direita da fonte*/
-body              { font-family: 'Roboto', sans-serif;}
-h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+body              { font-family: 'Roboto', sans-serif; font-size:16px;}
+
+/*unidades de medidas CSS
+ px,
+  %,
+  pt (relativo a fontes)
+  em (relativo ao tamanho da fonte base do documento-body)*/
+  /*exemplo font-size 3em 3 x 16px definidos na body usar a referencia sempre na body*/
+  /*h1, { font-family: 'Ubuntu', sans-serif; font-size:3em NAO UTILIZAR O em FACA CADA PARAGRO COM SEU TAMANHO}*/
+
+h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif;}
+h1 {font-size:32px; }
 
 /*font-family: 'Droid Sans', sans-serif;*/
+
+/*criando uma classe no css deve conter o .(ponto na frente) mas no html nao colocar o . ponto*/
+
+.espaco { margin-top: 12px; }
+
+.cinza-claro { background-color:#f3f3f3; }
