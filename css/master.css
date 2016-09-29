@@ -18,7 +18,5 @@ h1 {font-size:32px; }
 /*font-family: 'Droid Sans', sans-serif;*/
 
 /*criando uma classe no css deve conter o .(ponto na frente) mas no html nao colocar o . ponto*/
-
 .espaco { margin-top: 12px; }
-
 .cinza-claro { background-color:#f3f3f3; }
